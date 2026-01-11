@@ -28,7 +28,8 @@ from tkinter import ttk, filedialog, messagebox
 # ============================================================================
 # CONFIGURATION
 # ============================================================================
-MODEL_NAME = "hishab/titu_stt_bn_fastconformer"
+#MODEL_NAME = "hishab/titu_stt_bn_fastconformer"
+MODEL_NAME = "hishab/titu_stt_bn_conformer_large"
 SAMPLE_RATE = 16000
 
 # ============================================================================

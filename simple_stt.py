@@ -20,9 +20,10 @@ warnings.filterwarnings('ignore')
 # ============================================================================
 # CONFIGURATION
 # ============================================================================
-MODEL_NAME = "hishab/titu_stt_bn_fastconformer"
+#MODEL_NAME = "hishab/titu_stt_bn_fastconformer"
+MODEL_NAME = "hishab/titu_stt_bn_conformer_large"
 SAMPLE_RATE = 16000
-RECORD_SECONDS = 5  # Default recording duration
+RECORD_SECONDS = 10  # Default recording duration
 
 # ============================================================================
 # MAIN FUNCTIONS
