@@ -1,0 +1,14 @@
+# Bangla STT - Requirements (Windows Optimized)
+# =============================================
+
+# Step 1: Install PyTorch with CUDA first (run this separately):
+# pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# Step 2: Then install these:
+nemo_toolkit[asr]
+pydub>=0.25.1
+sounddevice>=0.4.6
+soundfile>=0.12.1
+numpy<2.1.0
+imageio-ffmpeg
+# Note: We use sounddevice instead of pyaudio (easier Windows install)
